@@ -34,13 +34,23 @@ namespace ConsoleApplication1
             WriteLine();
 
             LinqToObjects.sayHello();
-           
-
-
-
-
-
+            //ActionAndFuncDelegates class1 = new ActionAndFuncDelegates(displayMessage, Convert.ToInt32(ReadLine())); 
             ReadLine();
+
+
+        }
+
+        // Call back function or notification message
+        private static void displayMessage(string message, ConsoleColor txtColor, int prntCount)
+        {
+            ConsoleColor prev = Console.ForegroundColor;
+            Console.ForegroundColor = txtColor;
+            for (int i = 0; i < prntCount; i++)
+            {
+                Console.WriteLine(message);
+            }
+
+            Console.ForegroundColor = prev;
         }
     }
 }

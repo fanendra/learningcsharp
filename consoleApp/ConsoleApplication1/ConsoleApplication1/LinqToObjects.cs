@@ -23,6 +23,11 @@ namespace ConsoleApplication1
 
             List<int> evennumbers = listNumbs.FindAll(e => e % 2 == 0);
 
+            var nubs  = listNumbs.Select(e => e.ToString());
+            
+
+            
+
             // Use of Extention Methods.
             listNumbs.printEachNumber();
 
