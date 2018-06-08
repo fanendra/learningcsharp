@@ -240,3 +240,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/consoleApp/ConsoleApplicationramya/ConsoleApplicationramya/Properties/AssemblyInfo.cs
+/consoleApp/ConsoleApplicationramya/ConsoleApplicationramya/App.config
+/consoleApp/ConsoleApplicationramya/ConsoleApplicationramya/ConsoleApplicationramya.csproj
+/consoleApp/ConsoleApplicationramya/ConsoleApplicationramya.sln
